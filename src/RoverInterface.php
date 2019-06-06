@@ -2,6 +2,6 @@
 
 namespace MarsRover;
 
-Abstract class RoverInterface {
+Interface RoverInterface {
     public function followOrders (String $orders);
 }
